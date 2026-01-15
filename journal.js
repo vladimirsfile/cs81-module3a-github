@@ -16,3 +16,16 @@ function biggerNum(num1, num2) {
 console.log(biggerNum(22, -7));
 console.log(biggerNum(27, 27));
 console.log(biggerNum(66, 147));
+
+// Select the odd numbers
+let oddNums = [];
+function slectOddNum(numbers) {
+    for (let number of numbers) {
+        if (number % 2 !== 0) {
+            oddNums.push(number);
+        }
+    }
+    return oddNums;
+}
+numbers = [22, 7, 223, 67, 0, 44, 17, 88];
+console.log(slectOddNum(numbers));
