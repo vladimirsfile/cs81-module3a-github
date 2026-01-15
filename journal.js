@@ -27,15 +27,15 @@ function slectOddNum(numbers) {
     }
     return oddNums;
 }
-numbers = [22, 7, 223, 67, 0, 44, 17, 88];
+let numbers = [22, 7, 223, 67, 0, 44, 17, 88];
 console.log(slectOddNum(numbers));
 
 // Get the initials 
 function getInitials(firstName, lastName) {
     return (firstName[0] + "." + lastName[0] + ".");
 }
-firstName = "Vladimir";
-lastName = "Angelov";
+const firstName = "Vladimir";
+const lastName = "Angelov";
 
 console.log(getInitials(firstName, lastName));
 
