@@ -38,3 +38,13 @@ firstName = "Vladimir";
 lastName = "Angelov";
 
 console.log(getInitials(firstName, lastName));
+
+// Find the are of a rectangle
+function areaRectangle(width, height) {
+    return  width * height;
+}
+let width = 7;
+let height = 22;
+
+let area = areaRectangle(width, height);
+console.log(area);
